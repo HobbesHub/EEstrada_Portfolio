@@ -1,27 +1,50 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+    line-height: 1.6;
 }
 
 header {
     text-align: center;
 }
 
-header h1 {
-    font-size: 2em;
+header img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 10px;
 }
 
-.about, .projects, .contact {
-    margin-bottom: 40px;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-.project {
-    background-color: #f9f9f9;
-    padding: 10px;
-    margin: 10px 0;
+nav li {
+    display: inline;
+    margin: 0 10px;
 }
 
-.project h3 {
-    margin-top: 0;
+section {
+    padding: 50px;
+}
+
+.work-item {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.work-item img {
+    max-width: 100%;
+    border: 3px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+.work-item.active img {
+    border-color: #000;
+}
+
+@media (max-width: 600px) {
+    header img {
+        max-width: 100px;
+    }
 }

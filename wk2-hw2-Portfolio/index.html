@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Portfolio - Enrique Estrada</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <h1>Enrique Estrada</h1>
-        <p>Game Designer</p>
+        <img src="avatar.jpg" alt="Enrique">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="about">
+    <section id="about">
         <h2>About Me</h2>
-        <p>Recently Graduated from University of Silicon Valley, (USV).
-            My favorite color is Red, pizza is my favorite food.
-            My dream vacation location is Japan. I play video games in my free time.
-            When I am not gaming, I am outside hiking, biking, or, driving.
+        <p>I am a game design engineering major with leadership experience. 
+            I can hold my breath for 3 minutes, make awkward situations more awkward.
+            I love racing games and the rest of this sentence is all filler words.
         </p>
     </section>
 
-    <section class="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Portfolio Project</h3>
-            <p>This project was created Monday September 11, 2023.
-                It's purpose was to reintroduce html, and css to the 
-                students of class CSS316. Though it may appear rough, 
-                the mastermind behind the project was satisfied.
-            </p>
+    <section id="work">
+        <h2>My Work</h2>
+        <div class="work-item active">
+            <img src="work1.jpg" alt="Work 1">
         </div>
-        <!-- Add more project divs as needed -->
+        <div class="work-item">
+            <img src="work2.jpg" alt="Work 2">
+        </div>
+        <div class="work-item">
+            <img src="work3.jpg" alt="Work 3">
+        </div>
     </section>
 
-    <section class="contact">
-        <h2>Contact</h2>
-        <p>Email: eaestrada458@gmail.com</p>
-        <p>Phone: +1 (408)315-7777</p>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: eaestrada488@gmail.com</p>
+        <p>Phone: 408 315 7770</p>
     </section>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
